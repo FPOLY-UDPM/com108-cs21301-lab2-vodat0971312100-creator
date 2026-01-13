@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Nguyễn Võ Minh Đạt]
+ * MSSV:      [PS49299]
+ * Lớp:       [COM108]
  *****************************************************************************/
 
 // BÀI LÀM THÊM
@@ -10,7 +10,7 @@
 #include <stdio.h>
 
 int main(){
-    int so1, so2;
+    float a,b;
 
     printf("Chương trình tính tích và thương của 2 số\n");
 
