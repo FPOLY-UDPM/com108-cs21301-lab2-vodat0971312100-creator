@@ -11,6 +11,9 @@
 #include <stdio.h>
 
 int main(){
+    #include <stdio.h>
+
+
    float x;// x là bán kinh hình tròn
    printf("nhap gia tri ban kinh hình tron la\n");
    scanf("%f",&x);// Nhập dữ liệu
@@ -25,3 +28,5 @@ int main(){
 
 
 }
+
+
