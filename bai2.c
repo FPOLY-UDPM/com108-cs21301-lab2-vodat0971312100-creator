@@ -11,14 +11,17 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
+     int a,b  ; // Khai báo biến
+    printf("Chieu dai cua manh vuon la \n");    // Nhập dữ liệu
+    scanf("%d", &a);// Nhập dữ liệu
+    printf("Chieu rong cua manh vuon la\n");    // Nhập dữ liệu
+    scanf("%d", &b);// Nhập dữ liệu
+    printf(" dien tich %d*%d = %d\n",a,b, a*b );  // Xử lý, tính toán
+    printf("chu vi = (chieu dai+ chieu rong)*2=%d",(a+b)*2);  // Xử lý, tính toán
+    return 0;  // Xử lý, tính toán
+    
 }
+
+   
+
+

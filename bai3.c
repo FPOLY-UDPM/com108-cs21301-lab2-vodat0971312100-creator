@@ -11,9 +11,12 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
+   float x;// x là bán kinh hình tròn
+   printf("nhap gia tri ban kinh hình tron la\n");
+   scanf("%f",&x);// Nhập dữ liệu
+   printf("chu vi hinh tron la = 2*pi*x =%.3f",2*3.14*x );
+   return 0;
+   
 
 
     // Xử lý, tính toán

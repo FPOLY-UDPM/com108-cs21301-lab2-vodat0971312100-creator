@@ -13,14 +13,15 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
+   float x,y,z; //x là toán và y là lý và hóa là z
+   printf("Diem toan la\n");
+   scanf("%f",&x);
+   printf("Diem ly la\n");
+   scanf("%f",&y);
+   printf("Diem hoa la\n");
+   scanf("%f",&z);
+   printf("Diem trung binh 3 mon la (toan*3+ly*2+hoa)/6= %f",(x*3+y*x+z)/6);
+   return 0;
 
 
 }
