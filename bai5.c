@@ -11,9 +11,11 @@
 
 int main(){
     float a,b;
-
-    printf("Chương trình tính tích và thương của 2 số\n");
-
-
+    printf("vui long nhap so a\n");
+    scanf("%f",&a);
+    printf("vui long nhap so b\n");
+    scanf("%f",&b);
+    printf("phươg trình tích của 2 số = a*b =%.2f\n", a*b);
+    printf("phương trình thương của 2 số= %.2f ",a/b);
     return 0;
 } 
