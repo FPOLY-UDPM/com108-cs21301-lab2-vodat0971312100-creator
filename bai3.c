@@ -17,7 +17,7 @@ int main(){
    float x;// x là bán kinh hình tròn
    printf("nhap gia tri ban kinh hình tron la\n");
    scanf("%f",&x);// Nhập dữ liệu
-   printf("chu vi hinh tron la = 2*pi*x =%.3f",2*3.14*x );
+   printf("chu vi hinh tron la = 2*pi*x =%.3f",2*x*3.14f );
    return 0;
 
 
