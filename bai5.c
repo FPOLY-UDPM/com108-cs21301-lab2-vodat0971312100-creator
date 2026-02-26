@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Nguyễn Võ Minh Đạt]
+ * MSSV:      [PS49299]
+ * Lớp:       [COM108]
  *****************************************************************************/
 
 // BÀI LÀM THÊM
@@ -10,10 +10,12 @@
 #include <stdio.h>
 
 int main(){
-    int so1, so2;
-
-    printf("Chương trình tính tích và thương của 2 số\n");
-
-
+    float a,b;
+    printf("vui long nhap so a\n");
+    scanf("%f",&a);
+    printf("vui long nhap so b\n");
+    scanf("%f",&b);
+    printf("phươg trình tích của 2 số = a*b =%.2f\n", a*b);
+    printf("phương trình thương của 2 số= %.2f ",a/b);
     return 0;
 } 
